@@ -1,5 +1,5 @@
 #!/usr/bin/python
- elif choice == '4':
+elif choice == '4':
             # Change PIN
             current_pin = int(input("Enter your current PIN: "))
             if current_pin == pin:
@@ -15,3 +15,13 @@
                     print("New PIN must be a 4-digit integer.")
             else:
                 print("Current PIN is incorrect.")
+elif choice == '5':
+            # Exit
+            print(f"Thank you for using the ATM. You made a total deposit of {total_deposits} and a total withdrawal of {total_withdrawals}.")
+            break
+
+        else:
+            print("Invalid option. Please choose again.")
+
+if __name__ == "__main__":
+    main()             
