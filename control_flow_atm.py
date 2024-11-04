@@ -25,7 +25,7 @@ def main():
         print("2. Deposit Funds")
         print("3. Withdraw Funds")
         print("4. Change PIN")
-        print("5.Check for withdrawable amount. Enter any amount:  ")
+        print("5.Check for withdrawable amount. ")
         print("6. Exit")
         
         choice = input("Choose an option (1-6): ")
