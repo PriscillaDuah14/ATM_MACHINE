@@ -59,7 +59,7 @@ Basic understanding of Python programming
 
 1. Run the Program:
 
-Save the script and run it using the command: python control_flow_atm.py.
+Save the script (control_flow_atm.py file) and run it using the command: python control_flow_atm.py.
 
 2. Authenticate:
 
