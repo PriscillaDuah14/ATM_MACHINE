@@ -1,3 +1,0 @@
-# ATM MACHINE
-
-## AUTHORS
