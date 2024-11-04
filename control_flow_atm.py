@@ -1,3 +1,4 @@
+#!/usr/bin/python
 def main():
     balance = 2500
     pin = 2246
@@ -56,13 +57,34 @@ def main():
 
                 return
                 
-            
-            
-        
-                    
+elif choice == '4':
+            # Change PIN
+            current_pin = int(input("Enter your current PIN: "))
+            if current_pin == pin:
+                new_pin = int(input("Enter your new 4-digit PIN: "))
+                if 1000 <= new_pin <= 9999:
+                    confirm_pin = int(input("Confirm your new PIN: "))
+                    if new_pin == confirm_pin:
+                        pin = new_pin
+                        print("Your PIN has been changed successfully.")
+                    else:
+                        print("PINs do not match. Try again.")
+                else:
+                    print("New PIN must be a 4-digit integer.")
+            else:
+              print("Current PIN is incorrect.")
+elif choice == '5':
+            if withdraw_amount >= 50 and withdraw_amount < balance:
+                print(f"You can withdraw {withdraw_amount} without exceeding your balance.")
+            else:
+    print("You can't withdraw less than $50 or you might have exceeded your balance. Please try again.")     
+elif choice == '6'            
+            # Exit
+            print(f"Thank you for using the ATM. You made a total deposit of {total_deposits} and a total withdrawal of {total_withdrawals}.")
+            break
 
+        else:
+            print("Invalid option. Please choose again.")
 
-        if __name__ == "__main__":
-                main()
-            
-    
+if __name__ == "__main__":
+    main()             
