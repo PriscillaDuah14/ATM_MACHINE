@@ -2,7 +2,7 @@
 
 ## Authors
 - Dorgbetor Catherena Emefa
-([Github] (https://github.com/dorgbetorcatherena) | [LinkedIn] (in/catherena-dorgbetor-13543b327))
+([Github] (https://github.com/dorgbetorcatherena) | [LinkedIn] (https://www.linkedin.com/in/catherena-dorgbetor-13543b327))
 
 - Priscilla Duah
 ([LinkedIn] (http://linkedin.com/in/priscilla-antwiwaa-duah-7485b532a))
