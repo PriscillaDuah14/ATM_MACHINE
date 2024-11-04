@@ -2,8 +2,8 @@
 def main():
     balance = 2500
     pin = 2246
-    #total_deposits = 0
-    #otal_withdrawals = 0
+    total_deposits = 0
+    total_withdrawals = 0
 
     print("WELCOME TO THE ATM!")
 
@@ -32,9 +32,31 @@ def main():
 
         if choice == '1':
             # Check Balance
-            print(f"Your current balance is: {balance}")
+            print(f"Your current balance is: ${balance}")
 
-if __name__ == "__main__":
-    main()
 
+        elif choice == '2':
+            # Deposit Funds
+            deposit_amount = float(input("Enter the amount to deposit: "))
+            balance += deposit_amount
+            print(f"Deposit successful. Your new balance is: ${balance}")
+            total_deposits += deposit_amount
+
+        elif choice == '3':
+            # Withdraw Funds
+            withdraw_amount = float(input("Enter the amount to withdraw: "))
+            if withdraw_amount <= balance:
+                balance -= withdraw_amount
+                print(f"Withdrawal successful. Your new balance is: ${balance}")
+                total_withdrawals += withdraw_amount
+            else:
+                print("Insufficient funds.")
+            
+        
+                    
+
+
+            if __name__ == "__main__":
+                main() 
+            
         
