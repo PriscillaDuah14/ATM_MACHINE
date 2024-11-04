@@ -1,4 +1,5 @@
 # ATM MACHINE
+
 ## Authors
 - Dorgbetor Catherena Emefa
 ([Github] (https://github.com/dorgbetorcatherena) | [LinkedIn] (in/catherena-dorgbetor-13543b327))
@@ -9,7 +10,7 @@
 ## Project Overview
 This project is a basic ATM simulation we created in Python. It lets users perform common banking tasks such as checking balance, depositing funds, withdrawing funds, and changing their PIN. We used Python fundamentals—like functions, loops, and conditional statements—to make the program interactive. It’s a great example of how to apply core programming skills to a practical scenario.
 
-![A picture of a simple ATM Machine] ()
+![A picture of a simple ATM Machine] (https://play.google.com/store/apps/details?id=com.pms.atm.machine.virtualbank.simulator&gl=US)
 
 ## Key Features
 
@@ -41,8 +42,10 @@ Users can update their PIN by first confirming their current PIN.
 
 The new PIN must be a 4-digit integer, and users confirm it to ensure no mistakes.
 
+6. Check for withdrawable amount:
+The user is able to check if an amount entered is withdrawable or not.
 
-6. Exit:
+7. Exit:
 
 Users can exit the program at any time, receiving a summary of their total deposits and withdrawals.
 
@@ -56,7 +59,7 @@ Basic understanding of Python programming
 
 1. Run the Program:
 
-Save the script and run it using the command: python atm_simulation.py.
+Save the script and run it using the command: python control_flow_atm.py.
 
 2. Authenticate:
 
@@ -76,7 +79,9 @@ After authentication, the main menu displays the following options:
 
 4 for changing your PIN.
 
-5 to exit the program.
+5 to check for withdrawable amount
+
+6 to exit the program.
 
 
 4. Select an Option:
@@ -85,9 +90,9 @@ Enter the number that corresponds to the action you want to perform.
 
 Follow the prompts for each option.
 
-5. Exit:
+6. Exit:
 
-Choose option 5 to exit.
+Choose option 6 to exit.
 
 Upon exit, the program will display a final summary of your total deposits and withdrawals.
 
@@ -111,6 +116,8 @@ Withdraw Funds: Prompts for a withdrawal amount; ensures the balance covers it.
 
 Change PIN: Confirms the current PIN, then prompts for and verifies a new 4-digit PIN.
 
+Check amount withdrawable: Confirms if the user can withdraw an amount of money or not.
+
 Exit: Summarizes total deposits and withdrawals before closing the program.
 
 4. Error Handling:
@@ -132,24 +139,24 @@ Main Menu:
 3. Withdraw Funds
 4. Change PIN
 5. Exit
-Choose an option (1-5): 1
+Choose an option (1-6): 1
 Your current balance is: 5000
 
-Choose an option (1-5): 2
+Choose an option (1-6): 2
 Enter amount to deposit: 1000
 New balance after deposit: 6000
 
-Choose an option (1-5): 3
+Choose an option (1-6): 3
 Enter amount to withdraw: 500
 New balance after withdrawal: 5500
 
-Choose an option (1-5): 4
+Choose an option (1-6): 4
 Enter your current PIN: **
 Enter your new 4-digit PIN: **
 Confirm your new PIN: **
 Your PIN has been changed successfully.
 
-Choose an option (1-5): 5
+Choose an option (1-6): 6
 Thank you for using the ATM. You made a total deposit of 1000 and a total withdrawal of 500.
 
 ## Possible Improvements
