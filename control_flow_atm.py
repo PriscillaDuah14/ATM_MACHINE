@@ -1,4 +1,3 @@
-#python
 def main():
     balance = 2500
     pin = 2246
@@ -15,7 +14,7 @@ def main():
         else:
             print("Incorrect PIN. Try again.")
     else:
-        print("Too many incorrect attempts. Access blocked.")
+        print("Too many incorrect attempts. Access blocked!.")
         return
 
     # Main Menu
@@ -39,24 +38,31 @@ def main():
             # Deposit Funds
             deposit_amount = float(input("Enter the amount to deposit: "))
             balance += deposit_amount
-            print(f"Deposit successful. Your new balance is: ${balance}")
             total_deposits += deposit_amount
+            
+            print(f"Deposit successful. Your new balance is: ${balance}")
+            
 
         elif choice == '3':
             # Withdraw Funds
             withdraw_amount = float(input("Enter the amount to withdraw: "))
             if withdraw_amount <= balance:
                 balance -= withdraw_amount
-                print(f"Withdrawal successful. Your new balance is: ${balance}")
                 total_withdrawals += withdraw_amount
+                print(f"Withdrawal successful. Your new balance is: ${balance}")
+                
             else:
                 print("Insufficient funds.")
+
+                return
+                
+            
             
         
                     
 
 
-            if __name__ == "__main__":
-                main() 
+        if __name__ == "__main__":
+                main()
             
-        
+    
