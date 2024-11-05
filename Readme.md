@@ -10,7 +10,7 @@
 ## Project Overview
 This project is a basic ATM simulation we created in Python. It lets users perform common banking tasks such as checking balance, depositing funds, withdrawing funds, and changing their PIN. We used Python fundamentals—like functions, loops, and conditional statements—to make the program interactive. It’s a great example of how to apply core programming skills to a practical scenario.
 
-![A picture of a simple ATM Machine] (https://play.google.com/store/apps/details?id=com.pms.atm.machine.virtualbank.simulator&gl=US)
+![A picture of a simple ATM Machine] (ATM_6_WhatIsATMFullFormDefinition_Uses.jpg)
 
 ## Key Features
 
