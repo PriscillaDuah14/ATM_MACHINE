@@ -2,15 +2,15 @@
 
 ## Authors
 - Dorgbetor Catherena Emefa
-([Github] (https://github.com/dorgbetorcatherena) | [LinkedIn] (https://www.linkedin.com/in/catherena-dorgbetor-13543b327))
+[Github](https://github.com/dorgbetorcatherena) | [LinkedIn](https://www.linkedin.com/in/catherena-dorgbetor-13543b327)
 
 - Priscilla Duah
-([LinkedIn] (http://linkedin.com/in/priscilla-antwiwaa-duah-7485b532a))
+[LinkedIn](http://linkedin.com/in/priscilla-antwiwaa-duah-7485b532a)
 
 ## Project Overview
 This project is a basic ATM simulation we created in Python. It lets users perform common banking tasks such as checking balance, depositing funds, withdrawing funds, and changing their PIN. We used Python fundamentals—like functions, loops, and conditional statements—to make the program interactive. It’s a great example of how to apply core programming skills to a practical scenario.
 
-![A picture of a simple ATM Machine] (ATM_6_WhatIsATMFullFormDefinition_Uses.jpg)
+![A picture of a simple ATM Machine](ATM_6_WhatIsATMFullFormDefinition_Uses.jpg)
 
 ## Key Features
 
@@ -140,15 +140,15 @@ Main Menu:
 4. Change PIN
 5. Exit
 Choose an option (1-6): 1
-Your current balance is: 5000
+Your current balance is: 2500
 
 Choose an option (1-6): 2
 Enter amount to deposit: 1000
-New balance after deposit: 6000
+New balance after deposit: 3500
 
 Choose an option (1-6): 3
 Enter amount to withdraw: 500
-New balance after withdrawal: 5500
+New balance after withdrawal: 3000
 
 Choose an option (1-6): 4
 Enter your current PIN: **

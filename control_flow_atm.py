@@ -73,14 +73,18 @@ def main():
                     print("New PIN must be a 4-digit integer.")
             else:
               print("Current PIN is incorrect.")
+        
+        #Eligibility check
+        
         elif choice == '5':
+            withdraw_amount = int(input("Please any amount to check: "))
             if withdraw_amount < 50:
     
               print("You can't withdraw less than $50 . Please try again.")     
         
         elif choice == '6':           
             # Exit
-            print(f"Thank you for using the ATM. You made a total deposit of {total_deposits} and a total withdrawal of {total_withdrawals}.")
+            print(f"Thank you for using the ATM. You made a total deposit of ${total_deposits} and a total withdrawal of ${total_withdrawals}.")
             break
 
         else:
