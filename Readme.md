@@ -2,15 +2,16 @@
 
 ## Authors
 - Dorgbetor Catherena Emefa
-(Github)[https://github.com/dorgbetorcatherena] | (LinkedIn) [https://www.linkedin.com/in/catherena-dorgbetor-13543b327]
+([Github] (https://github.com/dorgbetorcatherena) | [LinkedIn] (https://www.linkedin.com/in/catherena-dorgbetor-13543b327))
 
 - Priscilla Duah
-(LinkedIn) [http://linkedin.com/in/priscilla-antwiwaa-duah-7485b532a]
+([LinkedIn] (http://linkedin.com/in/priscilla-antwiwaa-duah-7485b532a))
 
 ## Project Overview
 This project is a basic ATM simulation we created in Python. It lets users perform common banking tasks such as checking balance, depositing funds, withdrawing funds, and changing their PIN. We used Python fundamentals—like functions, loops, and conditional statements—to make the program interactive. It’s a great example of how to apply core programming skills to a practical scenario.
 
-![A picture of a simple ATM Machine](ATM_6_WhatIsATMFullFormDefinition_Uses.jpg)
+![A picture of a simple ATM Machine] (https://play.google.com/store/apps/details?id=com.pms.atm.machine.virtualbank.simulator&gl=US)
+
 ## Key Features
 
 1. User Authentication:
@@ -58,7 +59,7 @@ Basic understanding of Python programming
 
 1. Run the Program:
 
-Save the script [control_flow_atm.py file] and run it using the command: python control_flow_atm.py.
+Save the script (control_flow_atm.py file) and run it using the command: python control_flow_atm.py.
 
 2. Authenticate:
 
@@ -124,42 +125,36 @@ Exit: Summarizes total deposits and withdrawals before closing the program.
 The program includes error messages for invalid PIN entries, invalid choices, and incorrect deposit or withdrawal amounts, guiding users to correct the errors.
 
 ## Sample Program Run
-WELCOME TO THE ATM!
 
 Enter your PIN: **
 Incorrect PIN. Try again.
 Enter your PIN: **
 Incorrect PIN. Try again.
 Enter your PIN: **
-
+Welcome!
 
 Main Menu:
 1. Check Balance
 2. Deposit Funds
 3. Withdraw Funds
 4. Change PIN
-5. Check for withdrawable amount
-6. Exit
+5. Exit
 Choose an option (1-6): 1
-Your current balance is: 2500
+Your current balance is: 5000
 
 Choose an option (1-6): 2
 Enter amount to deposit: 1000
-New balance after deposit: 35000
+New balance after deposit: 6000
 
 Choose an option (1-6): 3
 Enter amount to withdraw: 500
-New balance after withdrawal: 2500
+New balance after withdrawal: 5500
 
 Choose an option (1-6): 4
 Enter your current PIN: **
 Enter your new 4-digit PIN: **
 Confirm your new PIN: **
 Your PIN has been changed successfully.
-Choose an option (1-6): 5
-Checking to see how much is withdrawable. Enter any amount: 49
-You cannot withdraw less $50. Please try again.
-
 
 Choose an option (1-6): 6
 Thank you for using the ATM. You made a total deposit of 1000 and a total withdrawal of 500.
