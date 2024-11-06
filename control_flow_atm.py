@@ -1,4 +1,6 @@
-#!/usr/bin/python
+
+import getpass
+
 def main():
     balance = 2500
     pin = 2246
@@ -9,6 +11,7 @@ def main():
 
     # User Authentication
     for attempt in range(3):
+        print(f"Attempts left: {3 - attempt}")
         user_pin = int(input("Enter your PIN: "))
         if user_pin == pin:
             break
@@ -25,7 +28,7 @@ def main():
         print("2. Deposit Funds")
         print("3. Withdraw Funds")
         print("4. Change PIN")
-        print("5.Check for withdrawable amount. ")
+        print("5. Transaction History")
         print("6. Exit")
         
         choice = input("Choose an option (1-6): ")
@@ -47,15 +50,21 @@ def main():
         elif choice == '3':
             # Withdraw Funds
             withdraw_amount = float(input("Enter the amount to withdraw: "))
-            if withdraw_amount <= balance:
+            if withdraw_amount < 50:
+                 print("You cannot withdraw less than $50.Please try again!")
+                 continue
+            
+            elif withdraw_amount > balance:
+                print("Insufficient funds.")
+            elif withdraw_amount != 50:
                 balance -= withdraw_amount
                 total_withdrawals += withdraw_amount
-                print(f"Withdrawal successful. Your new balance is: ${balance}")
-                
-            else:
-                print("Insufficient funds.")
 
-                break
+            print(f"Withdrawal successful. Your new balance is: ${balance}")
+
+                                   
+                
+            continue
                 
         elif choice == '4':
             # Change PIN
@@ -74,13 +83,19 @@ def main():
             else:
               print("Current PIN is incorrect.")
         
-        #Eligibility check
+        #Transaction history
         
         elif choice == '5':
-            withdraw_amount = int(input("Please any amount to check: "))
-            if withdraw_amount < 50:
+            print("\nTransaction History:")
+            print(f"Deposits: ${total_deposits}")
+            print(f"Withdrawals: ${total_withdrawals}")
+            print(f"Current Balance: ${balance}")
+            print(f"Total Balance: ${balance}")
+            print(f"Total Transactions: {total_deposits + total_withdrawals}")
+
+            
     
-              print("You can't withdraw less than $50 . Please try again.")     
+            continue
         
         elif choice == '6':           
             # Exit

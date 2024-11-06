@@ -42,8 +42,8 @@ Users can update their PIN by first confirming their current PIN.
 
 The new PIN must be a 4-digit integer, and users confirm it to ensure no mistakes.
 
-6. Check for withdrawable amount:
-The user is able to check if an amount entered is withdrawable or not.
+6. Check transaction history:
+The user is able to check the total history of the transaction.
 
 7. Exit:
 
@@ -79,12 +79,10 @@ After authentication, the main menu displays the following options:
 
 4 for changing your PIN.
 
-5 to check for withdrawable amount
-
-6 to exit the program.
+5 for checking transaction history.
 
 
-4. Select an Option:
+Select an Option:
 
 Enter the number that corresponds to the action you want to perform.
 
@@ -116,7 +114,7 @@ Withdraw Funds: Prompts for a withdrawal amount; ensures the balance covers it.
 
 Change PIN: Confirms the current PIN, then prompts for and verifies a new 4-digit PIN.
 
-Check amount withdrawable: Confirms if the user can withdraw an amount of money or not.
+Transaction history: Shows transaction history.
 
 Exit: Summarizes total deposits and withdrawals before closing the program.
 
@@ -138,7 +136,8 @@ Main Menu:
 2. Deposit Funds
 3. Withdraw Funds
 4. Change PIN
-5. Exit
+5. Check transaction history
+6. Exit
 Choose an option (1-6): 1
 Your current balance is: 2500
 
@@ -157,6 +156,11 @@ Confirm your new PIN: **
 Your PIN has been changed successfully.
 
 Choose an option (1-6): 6
+Deposits: $1000.0
+Withdrawals: $500.0
+Current Balance: $3000.0
+Total Balance: $3000.0
+Total Transactions: 1500.0
 Thank you for using the ATM. You made a total deposit of 1000 and a total withdrawal of 500.
 
 ## Possible Improvements
