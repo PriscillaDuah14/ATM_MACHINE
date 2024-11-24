@@ -172,3 +172,22 @@ Add Persistent Data Storage: Use a database or file to save account details for 
 Track Transaction History: Display past deposits, withdrawals, and balance checks.
 
 Enhance Security: Introduce stronger PIN requirements or add features like biometric authentication.
+
+
+## Using OOP to achieve this too
+   KEY NOTES:
+Users must provide a password when creating an account.
+	•	The password is stored securely (you can later enhance this with hashing for security).
+	2.	Password Verification:
+	•	Users must provide the correct password to access their account.
+	•	verify_password() method in the Account class checks if the entered password matches the stored one.
+
+Example Workflow:
+
+	1.	Create an account by setting an account number, holder name, and password.
+	2.	Access the account using the account number and password.
+	3.	Once authenticated, users can deposit, withdraw, or check their balance.
+	4.	If an incorrect password is entered, access is denied.
+
+This implementation enhances security and usability. Future improvements could include features like password recovery or stronger password validation rules.
+You can access this on the oop_atm.py
